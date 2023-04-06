@@ -4,7 +4,8 @@
 				padding: 0;
 			}
 			
-			/* Estilos para el menú vertical */
+			/* Menú Vertical */
+
 			nav {
 			  position: fixed;
 			  top: 0;
@@ -19,7 +20,6 @@
 			  justify-content: center;
 			  align-items: center;
 			  font-family: monospace, sans-serif;
-			  font-weight: 100;
 			  font-size: 10rem;
 			  text-transform: uppercase;
 			  background-color: transparent;
@@ -28,58 +28,38 @@
 			nav a {
 			  display: block;
 			  margin-bottom: 15px;
-			  color: black;
+			  color: white;
 			  text-decoration: none;
-			  font-size: 15px;
-			  text-align: center;
+			  font-size: 12px;
+			  text-align: left;
 
 			}
 		
 			nav a:hover {
-			  background-color: ghostwhite;
-			  transition: all 0.1s ease;
+			  background-color: rgba(248, 248, 255, 0.384);
+			  transition: all 0.2s ease;
 			}
 
 			div {
 				padding-bottom: 30%;
 			}
 
-/* Estilos para el menú vertical */
+			body {
+				font-size: 18px;
+			  }
 		
-		/*		
-		nav {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 200px;
-			height: 100%;
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			box-sizing: border-box;
-		}
-		nav a {
-			display: block;
-			margin-bottom: 10px;
-			color: #fff;
-			text-decoration: none;
-			font-size: 20px;
-		}
-		nav a:hover {
-			background-color: #fff;
-			color: #333;
-		}
-		
-		/* Estilos para la animación */
+		/* Estilos Animación */
+
 		#inicio {
 			height: 70rem;
 			font-family: monospace;
+			color: aliceblue;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
 			font-size: 20px;
-			background-image: url(/img/background.png);
+			background-image: url(/img/BG00.png);
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -89,23 +69,49 @@
 		#link1 { 
 			height: 70rem;
 			font-family: monospace;
+			color: aliceblue;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-			font-size: 20px;
-			background-image: url(/img/BG3.png);
+			font-size: 12px;
+			background-image: url(/img/BG00.png);
 			background-size: cover;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
+		}	
+
+		.body1 {
+			background-color: black;
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			
+			
+		}
+
+		.producto { 
+			background-color: black;
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 20rem;
 		}
 
 		p {
 			text-align: center;
-			font-size: 20px;
-			margin: 15rem;
+			padding-bottom: 13rem;
+			font-size: 15px;
+			margin: 4rem;
 		}
+
+		.image-row { 
+
+		}
+
+
 
 		@keyframes fadein {
 			from {
@@ -115,3 +121,5 @@
 				opacity: 5;
 			}
 		}
+
+		@media (min-width: 601px) and (max-width: 900px) 
